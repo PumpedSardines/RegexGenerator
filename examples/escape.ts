@@ -4,7 +4,6 @@ const words = [
   "AGB",
   "AEB",
   "ADB",
-  "ADEEF",
   "AF",
   "ACB",
   "AB"
