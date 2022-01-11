@@ -1,0 +1,31 @@
+{
+  "name": "word-list-regex-gen",
+  "version": "1.0.0",
+  "description": "Generates a valid regex that matches a provided list of strings",
+  "main": "./dist/src/index.js",
+  "author": "Fritiof Rusck",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint .",
+    "example:event-names": "node dist/examples/event-names.js",
+    "example:alphabet": "node dist/examples/alphabet.js",
+    "example:escape": "node dist/examples/escape.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "chalk": "^4.1.2",
+    "eslint": "^8.6.0",
+    "eslint-plugin-jest": "^25.3.4",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
